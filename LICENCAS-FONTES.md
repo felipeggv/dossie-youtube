@@ -1,7 +1,8 @@
-# Licenças das fontes do dossiê
+# Licenças das fontes do manual
 
-As oito fontes desta pasta são cópias das do design system do LSC (`lsc/design-system/fonts/`), com o sha256 conferido.
-Elas vão embutidas no HTML do dossiê; nada é carregado de CDN.
+As oito fontes desta pasta vão embutidas no HTML do manual; nada é carregado de CDN.
+Manrope e IBM Plex Mono são cópias das do design system do LSC (`lsc/design-system/fonts/`), com o sha256 conferido.
+Newsreader entrou em 06/10/2026, baixada do pacote `@fontsource/newsreader` pela CDN do jsDelivr, no lugar da Sora: é a serifa de leitura e de títulos.
 Origem: pacotes npm do [Fontsource](https://fontsource.org), subconjunto `latin`, versão 5.3.0.
 Licença: [SIL Open Font License 1.1](https://openfontlicense.org), com o texto completo abaixo.
 
@@ -9,9 +10,9 @@ Licença: [SIL Open Font License 1.1](https://openfontlicense.org), com o texto 
 |---|---|---|---|---|---|---|
 | `ibm-plex-mono-latin-400-normal.woff2` | IBM Plex Mono | 400 | normal | `@fontsource/ibm-plex-mono` | 5.3.0 | `08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7` |
 | `ibm-plex-mono-latin-500-normal.woff2` | IBM Plex Mono | 500 | normal | `@fontsource/ibm-plex-mono` | 5.3.0 | `01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22` |
-| `sora-latin-400-normal.woff2` | Sora | 400 | normal | `@fontsource/sora` | 5.3.0 | `98141d7eaa6e9ee35e0827d279018cd33c3e59c6650541ec7de1c692efd93942` |
-| `sora-latin-500-normal.woff2` | Sora | 500 | normal | `@fontsource/sora` | 5.3.0 | `edd010ebf2f4940b52d8b98296a499c0a783d838e427fa301c67f80959c1f441` |
-| `sora-latin-600-normal.woff2` | Sora | 600 | normal | `@fontsource/sora` | 5.3.0 | `fa9ab76f30510ad92153c6d6d72d0508884b85e9f0148abdfa963231b2a4845a` |
+| `newsreader-latin-400-normal.woff2` | Newsreader | 400 | normal | `@fontsource/newsreader` | 5.3.0 | `e66067814f1c672d33a457e4f4d102c818b481420e2234cf685ebdbf2f443904` |
+| `newsreader-latin-500-normal.woff2` | Newsreader | 500 | normal | `@fontsource/newsreader` | 5.3.0 | `5613e2fc8377392c02e8ac9d55014689fb5320a5f2a7be55e8088a314728ac2c` |
+| `newsreader-latin-400-italic.woff2` | Newsreader | 400 | itálico | `@fontsource/newsreader` | 5.3.0 | `fa9b900403949d9a723106752a5c8ad2797012a0c9057427b1da2db72d552148` |
 | `manrope-latin-400-normal.woff2` | Manrope | 400 | normal | `@fontsource/manrope` | 5.3.0 | `849290ef12a2eeb9af5c11924120d11aa4ae8b435ed3347d7fc8bc240c293ca3` |
 | `manrope-latin-500-normal.woff2` | Manrope | 500 | normal | `@fontsource/manrope` | 5.3.0 | `19874318747181a650eda439c37955220b849d9c4797c9e0718ee67d4bf929bc` |
 | `manrope-latin-600-normal.woff2` | Manrope | 600 | normal | `@fontsource/manrope` | 5.3.0 | `f7ac6258da20ab7541939b59851155753d1d24f1b30cbcb949077a3faa3d1593` |
@@ -23,7 +24,7 @@ Avisos de direitos autorais, como estão gravados nos próprios arquivos:
 | Source Serif 4 | © 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’. |
 | IBM Plex Sans | Copyright 2019 IBM Corp. All rights reserved. |
 | IBM Plex Mono | Copyright 2017 IBM Corp. All rights reserved. |
-| Sora | Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font) |
+| Newsreader | Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader) |
 | Manrope | Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope) |
 
 O `LICENSE` do pacote `@fontsource/source-serif-4` traz como aviso só "Google Inc."; vale o aviso da Adobe, gravado nas fontes.
